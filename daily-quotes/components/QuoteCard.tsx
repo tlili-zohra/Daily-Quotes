@@ -27,7 +27,7 @@ export default function QuoteCard({ initialQuote }: Props) {
 
   return (
     <div className="w-full max-w-xl bg-white p-6 rounded-xl shadow-md border border-gray-200 animate-fade-in transition-all duration-500">
-      <p className="text-xl font-medium mb-4">"{quote.content}"</p>
+      <p className="text-xl font-medium mb-4">{quote.content}</p>
       <p className="text-right text-sm text-gray-600 mb-6">— {quote.author}</p>
 
       <div className="flex justify-between">

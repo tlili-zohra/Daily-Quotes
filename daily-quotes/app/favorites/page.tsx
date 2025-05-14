@@ -17,7 +17,7 @@ export default function FavoritesPage() {
           <ul className="space-y-4">
             {favorites.map((quote) => (
               <li key={quote.id} className="border p-4 rounded">
-                <p>"{quote.content}"</p>
+                <p>{quote.content}</p>
                 <p className="text-right font-semibold">— {quote.author}</p>
                 <button
                   onClick={() => removeFavorite(quote.id)}
